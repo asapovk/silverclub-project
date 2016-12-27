@@ -1,0 +1,43 @@
+.header {
+  background-color: rgb(90, 102, 130);
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header__title {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.header__menu {
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  margin-bottom: 0;
+}
+.content {
+  background-color: rgb(144, 175, 71);
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header__menu {
+
+}
+
+.header__menu-item {
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
