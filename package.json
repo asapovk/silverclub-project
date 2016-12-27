@@ -1,0 +1,21 @@
+{
+  "name": "silverclub-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony server.js"
+  },
+  "author": "Konstantin Astapov",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.24.0",
+    "koa": "^2.0.0-alpha.7",
+    "koa-favicon": "^2.0.0",
+    "koa-logger": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "koa-static": "^3.0.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
