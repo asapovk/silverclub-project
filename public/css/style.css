@@ -21,15 +21,7 @@
   height: 50px;
   margin-bottom: 0;
 }
-.content {
-  background-color: rgb(144, 175, 71);
-  margin: 0 auto;
-  width: 80%;
-}
 
-.header__menu {
-
-}
 
 .header__menu-item {
   display: inline-block;
@@ -42,7 +34,35 @@
 
 }
 
+.content {
+  background-color: rgb(144, 175, 71);
+  margin: 0 auto;
+  width: 80%;
+}
 
+
+.contacts {
+  margin: auto;
+  width: 80%;
+
+}
+.contacts__title {
+  text-align: center;
+  margin: 0;
+  height: 100px;
+  line-height: 100px;
+  font-size: 20px;
+}
+
+.contacts__adress {
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+}
+
+.contacts__map {
+
+}
 
 .footer {
 color: white;
