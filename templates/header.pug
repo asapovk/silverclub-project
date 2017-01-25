@@ -1,0 +1,33 @@
+body
+  header.header
+    .header-logo
+      img.header-logo-img(src = "/img/re/logo.jpeg")
+    .header-menu
+      .header-contacts
+        .header-contacts__phone
+          i.fa.fa-phone-square
+          span &nbsp +7(916)569-28-60
+        .header-contacts__place
+          a(href="/contacts")
+            i.fa.fa-map-marker
+            span &nbsp Схема проезда
+      nav.navbar.navbar-default
+        .container-fluid
+          .navbar-header
+            button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          .collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a(href="/about") О клубе
+                li
+                  a(href="/service") Услуги
+                li
+                  a(href="/contacts") Контакты
+                li
+                  a(href="/contacts") Вакансии
+                li
+                  a(href="/schedule") Расписание
